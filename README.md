@@ -4,72 +4,67 @@
 
 ---
 
-## 📸 Project Previews
+## 📸 Solusi Visual (Project Previews)
 
-| ![Dashboard Utama](public/screenshots/dashboard.png) | ![Daftar Pengiriman](public/screenshots/shipment.png) | ![Manajemen Stok](public/screenshots/unit.png) |
-| :--------------------------------------------------: | :---------------------------------------------------: | :--------------------------------------------: |
-|                 **Dashboard Utama**                  |                 **Lacak Pengiriman**                  |               **Manajemen Unit**               |
+Bayangkan memiliki kendali penuh atas setiap unit kendaraan yang keluar dari gudang hingga sampai ke tangan pelanggan. Berikut adalah tampilan bagaimana LogiTrack membantu bisnis Anda:
 
-| ![Rencana Distribusi](public/screenshots/distribution-plan.png) | ![Gudang Lokasi](public/screenshots/warehouse.png) | ![Manajemen User](public/screenshots/users.png) |
-| :-------------------------------------------------------------: | :------------------------------------------------: | :---------------------------------------------: |
-|                     **Rencana Distribusi**                      |                 **Gudang Lokasi**                  |               **Manajemen User**                |
+|              ![Dashboard Utama](public/screenshots/dashboard.png)               |           ![Daftar Pengiriman](public/screenshots/shipment.png)            |                   ![Manajemen Stok](public/screenshots/unit.png)                    |
+| :-----------------------------------------------------------------------------: | :------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| **Control Center**: Pantau semua KPI (Lead Time, Stok, Delay) dalam satu layar. | **Real-time Tracking**: Status pengiriman unit yang akurat dan transparan. | **Inventory Control**: Pantau setiap unit kendaraan berdasarkan nomor rangka (VIN). |
 
----
-
-## ✨ Fitur Utama (Value Proposition)
-
-### 📊 1. Dashboard Command Center
-
-Pusat kendali eksekutif untuk melihat kesehatan distribusi secara real-time.
-
-- **KPI Monitoring**: Lead time rata-rata, persentase realisasi bulanan, dan jumlah bottleneck aktif.
-- **Visual Analytics**: Grafik perbandingan rencana vs realisasi per dealer, tren kecepatan pengiriman 30 hari terakhir, dan sebaran regional.
-- **Status Pulse**: Grafik doughnut yang menampilkan distribusi status unit (Pending, In Transit, Delivered, Delayed).
-
-### 🚨 2. Intelligent Bottleneck Detector
-
-Secara proaktif mengidentifikasi unit yang terhambat dalam perjalanan.
-
-- Filter otomatis untuk unit yang tidak bergerak lebih dari 3 hari.
-- Notifikasi visual pada tabel untuk intervensi cepat tim operasional.
-
-### 🔍 3. Global Search & VIN Tracking
-
-Kemudahan mencari data tanpa navigasi rumit.
-
-- Cari Unit, Dealer, atau Status Pengiriman hanya dengan mengetik **Nomor Rangka (VIN)** di Top Bar.
-- Tracking history lengkap untuk setiap unit dari masuk gudang hingga diterima dealer.
-
-### 🏗️ 4. Inventory Management & Aging
-
-- **Multi-Warehouse Support**: Kelola stok di berbagai lokasi gudang asal.
-- **Stock Aging**: Hitung otomatis berapa lama unit mengendap di gudang untuk mencegah stok lama (_dead stock_).
-
-### 🔐 5. Role-Based Access Control (RBAC)
-
-Keamanan data yang ketat dengan role khusus:
-
-- **Super Admin**: Akses penuh sistem.
-- **Manager Logistics**: Akses monitoring dan laporan.
-- **Warehouse Staff**: Input data unit dan pengiriman.
+|     ![Rencana Distribusi](public/screenshots/distribution-plan.png)      |            ![Gudang Lokasi](public/screenshots/warehouse.png)            |               ![Manajemen User](public/screenshots/users.png)               |
+| :----------------------------------------------------------------------: | :----------------------------------------------------------------------: | :-------------------------------------------------------------------------: |
+| **Smart Planning**: Susun rencana pengiriman bulanan ke berbagai dealer. | **Multi-Warehouse**: Kelola berbagai lokasi penyimpanan secara terpusat. | **Secure Access**: Kontrol ketat siapa yang bisa melihat dan mengubah data. |
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Manfaat Utama untuk Bisnis Anda
 
-- **Framework**: Laravel 11
-- **Admin Panel**: Filament v3 (TALL Stack)
-- **Database**: MySQL
-- **UI/UX**: Tailwind CSS & HeroIcons
-- **Features**: Database Notifications, Global Search, Export to Excel.
+### 📊 1. Pengambilan Keputusan Berbasis Data (Command Center)
+
+Tidak ada lagi tebak-tebakan. Dashboard eksekutif kami menyajikan kesehatan distribusi secara real-time.
+
+- **Efisiensi Waktu**: Pantau kecepatan pengiriman (_Lead Time_) untuk memastikan unit sampai tepat waktu.
+- **Tren Bisnis**: Analisis perbandingan rencana vs realisasi penjualan di setiap wilayah/dealer.
+
+### 🚨 2. Deteksi Dini Masalah (Predictive Bottleneck)
+
+Sistem secara cerdas memberi tahu Anda jika ada unit yang "macet" atau berhenti bergerak terlalu lama di perjalanan.
+
+- **Auto-Alert**: Notifikasi visual untuk unit yang tidak bergerak lebih dari 3 hari.
+- **Intervensi Cepat**: Cegah komplain pelanggan dengan menangani masalah sebelum mereka menyadarinya.
+
+### 🔍 3. Pencarian Instant & Riwayat Lengkap
+
+Cari data ribuan unit semudah mencari di Google.
+
+- **Lacak via VIN**: Cukup ketik nomor rangka, dan sistem akan menampilkan seluruh riwayat perjalanan unit tersebut.
+- **Transparansi Penuh**: Lihat tepatnya kapan unit masuk gudang, kapan dikirim, dan siapa pengemudinya.
+
+### 🏗️ 4. Kontrol Stok Tanpa Celah
+
+Hindari stok lama mengendap (_Dead Stock_) yang membebani biaya gudang.
+
+- **Stock Aging**: Sistem menghitung otomatis umur unit di gudang agar Anda bisa memprioritaskan unit lama untuk segera dikirim.
+- **Optimasi Ruang**: Pastikan setiap sudut gudang terutilisasi dengan maksimal.
+
+### 🔐 5. Keamanan & Kepercayaan Data
+
+Setiap staf memiliki akses yang sesuai dengan tanggung jawabnya.
+
+- **Privasi Terjamin**: Staf gudang tidak akan bisa melihat data sensitif keuangan, begitu juga sebaliknya.
+- **Audit Trail**: Semua aktivitas terekam, sehingga memudahkan audit jika terjadi selisih data.
 
 ---
 
-## ⚙️ Cara Menjalankan Project (Untuk Developer)
+## ⚙️ Cara Menjalankan Project (Untuk Tim IT)
+
+<details>
+<summary>Klik untuk melihat instruksi teknis</summary>
 
 1. Clone repository:
     ```bash
-    git clone https://github.com/username/logitrack.git
+    git clone https://github.com/kangjessy/logitrack.git
     ```
 2. Install dependencies:
     ```bash
@@ -85,9 +80,10 @@ Keamanan data yang ketat dengan role khusus:
     php artisan migrate --seed
     ```
 5. Jalankan server:
-    ```bash
+`bash
     php artisan serve
-    ```
+    `
+ </details>
 
 ---
 
